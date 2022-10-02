@@ -8,7 +8,7 @@
 
 ## 진행(추가 예정)
 
-- [x] Animated Tab Bar
+- [x] [Animated Tab Bar](./menu-tab)
 - [ ] 토스 채용 공고 사이트(스크롤 이벤트 적용한 디자인)
 
 ## 참고
