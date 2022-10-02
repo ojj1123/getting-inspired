@@ -1,5 +1,5 @@
 # 나에게 영감을 줄 프론트엔드 프로젝트
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/97dbb5fe-0b24-4cde-aeb1-002cda1c1dac/deploy-status)](https://app.netlify.com/sites/getting-inspired/deploys)
 ## 목표
 
 1. 예제를 따라 만들면서 HTML, CSS, JS로 스타일링 연습을 합니다.
