@@ -1,0 +1,106 @@
+:root {
+  --bgColorMenu: #191919;
+  --duration: 0.7s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #ffb457;
+  transition: background-color var(--duration);
+}
+menu {
+  position: relative;
+  background-color: var(--bgColorMenu);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin: 0;
+  max-width: 500px;
+  width: 100%;
+  height: 60px;
+}
+
+.menu_item {
+  all: unset;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  transition: transform var(--duration);
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.menu_item.active {
+  transform: translate3d(0, -0.8em, 0);
+}
+
+.menu_item::before {
+  content: '';
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0);
+  transition: background-color var(--duration), transform var(--duration);
+}
+
+.menu_item.active::before {
+  transform: scale(1);
+  background-color: var(--bgColorItem);
+}
+
+.menu_border {
+  left: 0;
+  bottom: 98%;
+  width: 154px;
+  height: 19px;
+  position: absolute;
+  clip-path: url(#menu);
+  z-index: -1;
+  will-change: transform;
+  background-color: var(--bgColorMenu);
+  transition: transform var(--duration);
+}
+
+.svg-container {
+  width: 0;
+  height: 0;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  stroke: white;
+  fill: transparent;
+  stroke-width: 1.2;
+  stroke-miterlimit: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 400;
+}
+
+.menu_item.active .icon {
+  animation: scroke 1.5s reverse;
+}
+
+@keyframes scroke {
+  100% {
+    stroke-dashoffset: 400;
+  }
+}
+
+.back-btn {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
