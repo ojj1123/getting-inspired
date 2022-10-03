@@ -15,6 +15,6 @@
 
 ## 참고
 
-[프론트엔드 코딩 작업에 영향을 줄 8가지 아이디어](https://yozm.wishket.com/magazine/detail/806/?fbclid=IwAR22SnsUZ0YrnHJqhvILpcmRmWOQQw1mKgQf8NZNf1pAaS8cSQV0qAiIvwM)
-[Project Management Dashboard UI](https://codepen.io/aybukeceylan/pen/OJRNbZp)
-[Neumorphism_animation](https://codepen.io/ma_suwa/pen/eYdZVML)
+- [프론트엔드 코딩 작업에 영향을 줄 8가지 아이디어](https://yozm.wishket.com/magazine/detail/806/?fbclid=IwAR22SnsUZ0YrnHJqhvILpcmRmWOQQw1mKgQf8NZNf1pAaS8cSQV0qAiIvwM)
+- [Project Management Dashboard UI](https://codepen.io/aybukeceylan/pen/OJRNbZp)
+- [Neumorphism_animation](https://codepen.io/ma_suwa/pen/eYdZVML)
